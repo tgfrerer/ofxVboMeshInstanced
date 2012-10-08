@@ -35,11 +35,28 @@ This addon helps drawing instanced openGL meshes with openFrameworks, and
 the enclosed example demonstrates the technique with a GPU accelerated 
 reaction-diffusion system. 
 
-See https://vimeo.com/50841645 for a demo.
+# Example project
 
+Use the openFrameworks Project Generator to create project files for the example.
+
+Don't forget to select:
+
+* ofxVboMeshInstanced
+* ofxGui
+* ofxXmlSettings
+
+from addons before generating the project file.
+
+## Reference Render
+
+![reference render](http://poniesandlight.co.uk/img/boxes_teaser.jpg)
+
+See also https://vimeo.com/50841645 for a demo.
 
 ## Dependencies:
 
 <pre>
-	* none outside openFrameworks >= 0071
+	* openFrameworks >= 0071
+	* ofxGui (core addon)
+	* ofxXmlSettings (core addon)
 </pre>
