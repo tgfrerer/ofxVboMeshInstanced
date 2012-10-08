@@ -29,6 +29,8 @@
 
 # ofxVboMeshInstanced
 
+## Draw instanced VBO meshes with openFrameworks.
+
 This addon helps drawing instanced openGL meshes with openFrameworks, and
 the enclosed example demonstrates the technique with a GPU accelerated 
 reaction-diffusion system. 
