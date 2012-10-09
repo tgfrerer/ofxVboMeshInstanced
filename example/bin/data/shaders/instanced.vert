@@ -1,3 +1,4 @@
+#extension GL_ARB_texture_rectangle : enable
 #extension GL_EXT_gpu_shader4 : require
 
 // phong shader code pilfered from http://www.ozone3d.net/tutorials/glsl_lighting_phong.php
