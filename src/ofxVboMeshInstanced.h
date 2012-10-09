@@ -19,7 +19,7 @@ public:
 	void setUsage(int usage);
 
 	void setPrimCount(int primCount_){primCount = primCount_;};
-	void getPrimCount(){return primCount;};
+	int getPrimCount(){return primCount;};
 	
 protected:
 	void draw(ofPolyRenderMode drawMode);
