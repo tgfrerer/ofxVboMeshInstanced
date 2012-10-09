@@ -155,6 +155,11 @@ void testApp::setup(){
 
 	
 	mCamMain.setupPerspective(false);
+	
+	mShdForce = NULL;
+	mShdInstanced = NULL;
+	mShdLength = NULL;
+
 }
 
 //--------------------------------------------------------------
