@@ -29,6 +29,16 @@
 
 # ofxVboMeshInstanced
 
+## Update
+
+This addon is deprecated with openFrameworks 0.8.0
+
+As of openFrameworks 0.8.0, the functionality of ofxVboMeshInstanced has been merged 
+into openFrameworks core. I've added an example project, ofDrawVboMeshInstancedExample,
+to the official openFrameworks example directory. Find it here:
+
+https://github.com/openframeworks/openFrameworks/tree/master/examples/gl/vboMeshDrawInstancedExample
+
 ## Draw instanced VBO meshes with openFrameworks.
 
 This addon helps drawing instanced openGL meshes with openFrameworks, and
